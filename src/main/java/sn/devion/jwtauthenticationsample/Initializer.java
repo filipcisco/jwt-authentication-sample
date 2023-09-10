@@ -1,14 +1,14 @@
-package sn.devion.crm;
+package sn.devion.jwtauthenticationsample;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import sn.devion.crm.dtos.GroupDTO;
-import sn.devion.crm.dtos.UserDTO;
-import sn.devion.crm.enums.Permission;
-import sn.devion.crm.services.GroupService;
-import sn.devion.crm.services.UserService;
+import sn.devion.jwtauthenticationsample.dtos.GroupDTO;
+import sn.devion.jwtauthenticationsample.dtos.UserDTO;
+import sn.devion.jwtauthenticationsample.enums.Permission;
+import sn.devion.jwtauthenticationsample.services.GroupService;
+import sn.devion.jwtauthenticationsample.services.UserService;
 
 import java.util.Arrays;
 import java.util.Set;

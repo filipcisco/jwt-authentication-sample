@@ -1,4 +1,4 @@
-package sn.devion.crm.dtos;
+package sn.devion.jwtauthenticationsample.dtos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

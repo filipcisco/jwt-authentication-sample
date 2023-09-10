@@ -1,4 +1,4 @@
-package sn.devion.crm.enums;
+package sn.devion.jwtauthenticationsample.enums;
 
 public enum TokenType {
   BEARER

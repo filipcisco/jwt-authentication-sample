@@ -1,4 +1,4 @@
-package sn.devion.crm.configs;
+package sn.devion.jwtauthenticationsample.configs;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import sn.devion.crm.repositories.UserRepository;
+import sn.devion.jwtauthenticationsample.repositories.UserRepository;
 
 @Configuration
 @RequiredArgsConstructor

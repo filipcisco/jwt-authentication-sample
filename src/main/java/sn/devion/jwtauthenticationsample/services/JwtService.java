@@ -1,4 +1,4 @@
-package sn.devion.crm.services;
+package sn.devion.jwtauthenticationsample.services;
 
 
 import io.jsonwebtoken.Claims;

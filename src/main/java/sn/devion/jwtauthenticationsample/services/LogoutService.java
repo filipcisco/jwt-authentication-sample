@@ -1,4 +1,4 @@
-package sn.devion.crm.services;
+package sn.devion.jwtauthenticationsample.services;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -7,7 +7,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.LogoutHandler;
 import org.springframework.stereotype.Service;
-import sn.devion.crm.repositories.TokenRepository;
+import sn.devion.jwtauthenticationsample.repositories.TokenRepository;
 
 @Service
 @RequiredArgsConstructor

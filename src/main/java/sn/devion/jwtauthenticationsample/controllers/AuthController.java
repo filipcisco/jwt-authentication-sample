@@ -1,4 +1,4 @@
-package sn.devion.crm.controllers;
+package sn.devion.jwtauthenticationsample.controllers;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import sn.devion.crm.dtos.AuthRequest;
-import sn.devion.crm.dtos.AuthResponse;
-import sn.devion.crm.services.AuthenticationService;
+import sn.devion.jwtauthenticationsample.dtos.AuthRequest;
+import sn.devion.jwtauthenticationsample.dtos.AuthResponse;
+import sn.devion.jwtauthenticationsample.services.AuthenticationService;
 
 import java.io.IOException;
 

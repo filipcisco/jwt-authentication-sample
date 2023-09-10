@@ -1,4 +1,4 @@
-package sn.devion.crm.services.impl;
+package sn.devion.jwtauthenticationsample.services.impl;
 
 
 import jakarta.persistence.EntityNotFoundException;
@@ -11,11 +11,11 @@ import org.springframework.data.domain.Sort;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import sn.devion.crm.dtos.UserDTO;
-import sn.devion.crm.entities.User;
-import sn.devion.crm.repositories.UserRepository;
-import sn.devion.crm.services.GroupService;
-import sn.devion.crm.services.UserService;
+import sn.devion.jwtauthenticationsample.dtos.UserDTO;
+import sn.devion.jwtauthenticationsample.entities.User;
+import sn.devion.jwtauthenticationsample.repositories.UserRepository;
+import sn.devion.jwtauthenticationsample.services.GroupService;
+import sn.devion.jwtauthenticationsample.services.UserService;
 
 import java.util.Locale;
 import java.util.Optional;

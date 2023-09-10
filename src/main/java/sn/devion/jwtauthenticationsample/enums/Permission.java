@@ -1,4 +1,4 @@
-package sn.devion.crm.enums;
+package sn.devion.jwtauthenticationsample.enums;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

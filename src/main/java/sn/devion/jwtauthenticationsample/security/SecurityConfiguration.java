@@ -1,4 +1,4 @@
-package sn.devion.crm.security;
+package sn.devion.jwtauthenticationsample.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -14,8 +14,8 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.logout.LogoutHandler;
 
-import static sn.devion.crm.enums.Permission.ADMIN_READ;
-import static sn.devion.crm.enums.Permission.MANAGER_READ;
+import static sn.devion.jwtauthenticationsample.enums.Permission.ADMIN_READ;
+import static sn.devion.jwtauthenticationsample.enums.Permission.MANAGER_READ;
 
 /**
  * Security configuration

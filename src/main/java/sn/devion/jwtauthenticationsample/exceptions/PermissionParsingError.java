@@ -1,4 +1,4 @@
-package sn.devion.crm.exceptions;
+package sn.devion.jwtauthenticationsample.exceptions;
 
 
 /**

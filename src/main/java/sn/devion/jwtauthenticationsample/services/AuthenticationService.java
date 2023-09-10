@@ -1,4 +1,4 @@
-package sn.devion.crm.services;
+package sn.devion.jwtauthenticationsample.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
@@ -8,13 +8,13 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.stereotype.Service;
-import sn.devion.crm.dtos.AuthRequest;
-import sn.devion.crm.dtos.AuthResponse;
-import sn.devion.crm.entities.Token;
-import sn.devion.crm.entities.User;
-import sn.devion.crm.enums.TokenType;
-import sn.devion.crm.repositories.TokenRepository;
-import sn.devion.crm.repositories.UserRepository;
+import sn.devion.jwtauthenticationsample.dtos.AuthRequest;
+import sn.devion.jwtauthenticationsample.dtos.AuthResponse;
+import sn.devion.jwtauthenticationsample.entities.Token;
+import sn.devion.jwtauthenticationsample.entities.User;
+import sn.devion.jwtauthenticationsample.enums.TokenType;
+import sn.devion.jwtauthenticationsample.repositories.TokenRepository;
+import sn.devion.jwtauthenticationsample.repositories.UserRepository;
 
 import java.io.IOException;
 

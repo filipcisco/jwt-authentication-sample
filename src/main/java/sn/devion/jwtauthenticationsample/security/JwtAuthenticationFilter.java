@@ -1,4 +1,4 @@
-package sn.devion.crm.security;
+package sn.devion.jwtauthenticationsample.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -13,8 +13,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import sn.devion.crm.repositories.TokenRepository;
-import sn.devion.crm.services.JwtService;
+import sn.devion.jwtauthenticationsample.repositories.TokenRepository;
+import sn.devion.jwtauthenticationsample.services.JwtService;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package sn.devion.crm.controllers;
+package sn.devion.jwtauthenticationsample.controllers;
 
 
 import lombok.RequiredArgsConstructor;
@@ -6,8 +6,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sn.devion.crm.dtos.UserDTO;
-import sn.devion.crm.services.UserService;
+import sn.devion.jwtauthenticationsample.dtos.UserDTO;
+import sn.devion.jwtauthenticationsample.services.UserService;
 
 import java.util.UUID;
 

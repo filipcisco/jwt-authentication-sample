@@ -1,8 +1,8 @@
-package sn.devion.crm.services;
+package sn.devion.jwtauthenticationsample.services;
 
 
 import org.springframework.data.domain.Page;
-import sn.devion.crm.dtos.UserDTO;
+import sn.devion.jwtauthenticationsample.dtos.UserDTO;
 import java.util.UUID;
 
 public interface UserService {

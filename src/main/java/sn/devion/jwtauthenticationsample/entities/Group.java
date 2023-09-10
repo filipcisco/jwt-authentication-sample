@@ -1,4 +1,4 @@
-package sn.devion.crm.entities;
+package sn.devion.jwtauthenticationsample.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import sn.devion.crm.enums.Permission;
+import sn.devion.jwtauthenticationsample.enums.Permission;
 
 import java.util.List;
 import java.util.Set;

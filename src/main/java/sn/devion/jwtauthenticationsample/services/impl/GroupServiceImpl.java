@@ -1,4 +1,4 @@
-package sn.devion.crm.services.impl;
+package sn.devion.jwtauthenticationsample.services.impl;
 
 
 import jakarta.persistence.EntityNotFoundException;
@@ -9,12 +9,12 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import sn.devion.crm.dtos.GroupDTO;
-import sn.devion.crm.entities.Group;
-import sn.devion.crm.enums.Permission;
-import sn.devion.crm.exceptions.PermissionParsingError;
-import sn.devion.crm.repositories.GroupRepository;
-import sn.devion.crm.services.GroupService;
+import sn.devion.jwtauthenticationsample.dtos.GroupDTO;
+import sn.devion.jwtauthenticationsample.entities.Group;
+import sn.devion.jwtauthenticationsample.enums.Permission;
+import sn.devion.jwtauthenticationsample.exceptions.PermissionParsingError;
+import sn.devion.jwtauthenticationsample.repositories.GroupRepository;
+import sn.devion.jwtauthenticationsample.services.GroupService;
 
 import java.util.UUID;
 import java.util.stream.Collectors;
